@@ -1,0 +1,43 @@
+/*CSS file for HTML styling.*/
+
+/*Set the position and height of the repl page.*/
+.repl {
+    position:relative;
+    min-height:95vh;   
+}
+
+/*Set the height, margin, scrolling status, and font of the history portion of the layout.*/
+.repl-history {      
+    height:75vh;   
+    margin: auto;
+    display: block;
+    overflow: scroll;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Set the margin, height, and grouping of the input bar.*/
+.repl-input {        
+    margin: auto;    
+    height:5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+/*Set the width/height, margin, border, and font of the inner input bar.*/
+.repl-command-box {
+    width: 100%;     
+    height: 80%;      
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Set the border, height/width, color, and font of the submit button.*/
+#submit-button {
+    border-radius: 10px;
+    height: 100%;
+    width: 10%;
+    background-color: plum;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
